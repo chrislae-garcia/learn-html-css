@@ -8,7 +8,20 @@
     <p>This is my page</p>
 
     <form action="/my-handling-form-page" method="post">
-      
+      <ul>
+        <li>
+          <lable for="name">Name:</lable>
+          <input type="text" id="name" name="user_name">
+        </li>
+        <li>
+          <lable for="mail">E-mail:</lable>
+          <input type="email" id="mail" name="user_email">
+        </li>
+        <li>
+          <lable for="msg">Message:</lable>
+          <textarea id="msg" name="user_message"></textarea>
+        </li>
+      </ul>
     </form>
   </body>
 </html>
