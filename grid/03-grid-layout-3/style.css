@@ -65,6 +65,8 @@
 }
 
 .photo  {
+  display: grid;
+  align-content: center;
 }
 
 .sidebar .side-content {
@@ -72,6 +74,8 @@
   color: black;
   font-size: 16px;
   font-weight: normal;
+  display: grid;
+  align-content: center;
 }
 
 .nav {
