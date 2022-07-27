@@ -76,14 +76,19 @@
 
 .nav {
   background-color: #FF7755;
+  grid-column: span 1;
 }
 
 .nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
+  list-style: none;
+  grid-column-start: span 1;
 }
 
 .article {
